@@ -1,0 +1,68 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .div_menu {
+        height: 40px;
+        background-color:darkblue;
+        display: flex;
+        align-items: center;
+    }
+    
+    .linki {
+        margin-left: 20px;
+        font-family: Arial;
+    }
+    
+    .linki a {
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .div_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div_main h1 {
+        font-size: 60px;
+        color: rgba(0, 0, 0, 0.397);
+    }
+    
+    .div_menu_zalogowany {
+        height: 40px;
+        background-color:purple;
+        display: flex;
+        align-items: center;
+    }
+
+    .div_admin_menu {
+        height: 40px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+    }
+    
+    .admin_menu {
+        height: 40px;
+        background-color: yellow;
+        display: flex;
+        font-family: Arial;
+        align-items: center;
+    }
+    
+    .adminlinki {
+        margin-left: 20px;
+    }
+    
+    .adminlinki a {
+        margin-left: 10px;
+        color: black;
+        font-size: large;
+    }
